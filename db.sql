@@ -1,0 +1,5 @@
+CREATE TABLE Tasks (
+    Id INT PRIMARY KEY IDENTITY,
+    Name NVARCHAR(255) NOT NULL,
+    Description NVARCHAR(MAX)
+);
